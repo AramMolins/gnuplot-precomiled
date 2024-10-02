@@ -14,11 +14,6 @@
             ]
         }
     },
-    "postCreateCommand": [
-        "echo 'export LD_LIBRARY_PATH=/workspace/builds/gnuplot/lib:$LD_LIBRARY_PATH' >> ~/.bashrc",
-        "echo 'export PATH=/workspace/builds/gnuplot/bin:$PATH' >> ~/.bashrc",
-        "source ~/.bashrc"
-    ],
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",
         "workbench.iconTheme": "material-icon-theme",  // Triem Material Icon Theme com a tema per defecte
